@@ -1,0 +1,23 @@
+#Kladdkaka{
+	background-image: url("../bilder/blomma.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color: black;
+}
+
+#Chokladbollar{
+	background-image: url("../bilder/blomma.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color:black;
+}
+
+#Cupcaces{
+	background-image: url("../bilder/blomma.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color:black;
+}

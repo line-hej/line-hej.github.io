@@ -1,0 +1,33 @@
+/*Det blir bommor på hela menyvalen*/
+.navbar-inverse {
+    background-image: url("../bilder/blomma.gif");
+	background-repeat: repeat;
+	position: relative;
+}
+
+/*Här ändras menyvalen i menyn*/
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+    font-family: 'Griffy', cursive;
+    font-size: 18px;
+} 
+
+/*Här ändras Startsida i menyn*/
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-family: 'Griffy', cursive;
+    font-size: 22px;
+}
+
+#ch{
+	width: 200px;
+	height: auto;
+}
+
+h1{
+	color:#ff8282 ;
+	font-family: Courgette;
+	
+	
+
+}

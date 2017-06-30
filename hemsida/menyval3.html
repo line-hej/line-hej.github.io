@@ -1,0 +1,83 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Courgette|Kalam" rel="stylesheet">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Baka med mig!</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Chokladbollar</a></li>
+                    <li><a href="menyval2.html">Kladdkaka</a></li>
+                    <li><a href="menyval3.html">Cupcakes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+ <h1>Super goda chokladcupcakes med hallonfrosting.</h1>
+ <h3>Ingredienser:</h3>
+ <ul>
+     <li>2 ägg</li>
+     <li>2 dl socker</li>
+     <li>100 gram smör</li>
+     <li>1 dl mjölk</li>
+     <li>3 dl mjöl</li>
+     <li>2 tsk bakpulver</li>
+     <li>1 tsk vaniljpulver</li>
+     <li>1 dl kakao</li>
+</ul>
+  <h4>Frosting:</h4>
+  <ul>
+      <li>2 dl färskost</li>
+      <li>1,5 dl florsocker</li>
+      <li>0,5 dl hallon</li>
+  </ul>
+  <h3>Gör så här:</h3>
+  <ol>
+      <li>Vispa ägg och socker pösigt.</li>
+      <li>Smält smör och blanda i mjölk.Tillsätt mjölkblaningen i ägg och socker blaningen.</li>
+      <li>Blanda mjöl,bakpulver,vaniljsocker i en bunke.Tillsätt mjölblaningen i mjölk och ägg blaningen.Rör om tills alla klumpar är borta.</li>
+      <li>Dela ut smeten till alla muffinsformar på en plåt.Använd dubbla muffinsformar så att muffinsarna inte sväller över.</li>
+      <li>Grädda i ungnen på 180 grader i ca 15 min.</li>
+      <li>Låt dom svalna i kylen så blir dom saftiga.</li>
+      <li>Rör ihop alla ingredienser till frostingen.Spritsa ut på alla muffins.KLAR!</li>
+  </ol>
+  <img id="hallon" src="bilder/hallon.jpg">
+</main>
+
+</body>
+</html>
